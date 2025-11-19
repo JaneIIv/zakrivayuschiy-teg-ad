@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="dark light" />
     <title>Закрывающий тег</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
@@ -266,7 +265,7 @@
         </article>
       </section>
       <section class="save-button-section">
-        <button class="save-button button" type="button" onclick="window['save-dialog'].showModal()" aria-controls="save-dialog">
+        <button class="save-button" type="button" onclick="window['save-dialog'].showModal()" aria-controls="save-dialog">
           <svg class="save-icon" viewBox="0 0 21 21">
             <use href="./svg/floppy.svg#floppy" />
           </svg>
@@ -279,7 +278,7 @@
         </svg>
         <p class="dialog-title">Вставьте дискету, чтобы продолжить</p>
         <form method="dialog" class="button-form">
-          <button class="dialog-button button" type="button" onclick="window['save-dialog'].close()">
+          <button class="dialog-button" type="button" onclick="window['save-dialog'].close()">
             <span class="button__text">ок</span>
           </button>
         </form>
