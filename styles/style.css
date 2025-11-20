@@ -138,7 +138,7 @@
   z-index: 1;
 }
 
-@supports (text-stroke: 1px var(--background-color)) or (-webkit-text-stroke:  1px var(--backdround-color)) {
+@supports (text-stroke: 1px var(--background-color)) {
   .watermark {
     -webkit-text-stroke: 1px var(--background-color);
     text-stroke: 1px var(--background-color);

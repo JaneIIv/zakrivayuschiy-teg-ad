@@ -9,15 +9,6 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
-@keyframes arrow {
-  0% {
-    margin-left: -20px;
-  }
-  100% {
-    margin-left: -16px;
-  }
-}
-
 @keyframes heart-scale {
   0% {
     transform-origin: center;
